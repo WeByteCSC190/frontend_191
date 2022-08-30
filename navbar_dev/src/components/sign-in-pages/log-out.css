@@ -1,0 +1,27 @@
+.mini-nav {
+
+}
+
+.logout-body {
+    text-align: center;
+    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+    border: black; 
+}
+
+.logout-message {
+    color: white; 
+}
+
+.logout-message p {
+    color: white; 
+}
+
+.log-back-btn {
+    text-decoration: none;
+    background: #e55039aa;
+    color: #fff; 
+    
+}
+.mini-footer {
+    background-image: inherit;
+}

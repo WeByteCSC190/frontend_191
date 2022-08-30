@@ -1,0 +1,42 @@
+/* CSS Code to style all pages rendered in App() */
+
+/* Header of the main pages. Found in all main pages */ 
+.page-header {
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: rgba(13, 57, 122, 1);
+  text-align: left;
+  position: flex; 
+  margin: 1;
+  padding: 0 1rem; 
+}
+
+
+/* The following code below does the following: 
+   * Organizes the format of the page in 3 containers
+   * Makes navbar "sticky" and hover over content when scrolling 
+*/ 
+
+.header-container{
+  position: fixed;  /* sticky */
+  top: 0;
+  width: 100%;
+  z-index: 4; /* hover */
+}
+
+.content-container {
+  padding: 20px;
+}
+
+.footer-container {
+  text-align: center;
+  color: rgba(13, 57, 122, 1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container + .content-container {
+  padding-top: 60px; 
+}
+
+
